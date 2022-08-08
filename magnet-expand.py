@@ -154,7 +154,7 @@ TRACKERS = [
 
 if __name__ == "__main__":
 	if( len(sys.argv) != 2 ):
-		sys.stderr.write("USAGE: %s <magnet link>\n")
+		sys.stderr.write("USAGE: %s <magnet link>\n" % sys.argv[0])
 		sys.stderr.write("\tYou will likely need quotes around the magnet link.\n")
 		sys.exit(1)
 	try:
